@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="div" style="background-color:blue">LOL</div>
+    <script>
+        var div = document.getElementById("div");
+        div.onmousedown = function(){
+        this.setAttribute("style","background-color:red;");
+          }
+          div.onmouseup = function(){
+        this.setAttribute("style","background-color:blue;");
+          }
+    </script>
+
+</body>
+</html>
